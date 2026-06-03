@@ -1,19 +1,19 @@
-## 📝 Phần 3: Thin SPEC (02-group-spec/thin-spec-template.md)
+## Thin SPEC
 
 ### 1. Track, product/app và user
 
 - **Track:** Learning OS
 - **Product/app thật:** SkillBridge — AI-powered personalized learning path generator từ CV + JD
 - **User cụ thể:** Người mới ra trường hoặc đi làm 1-2 năm kinh nghiệm, muốn apply vị trí mới (chuyển ngành hoặc thăng tiến), đang tự học online nhưng không biết nên học gì trước
-- **Nhóm có phải user thật không?** Có — thành viên nhóm đều là người đang học thêm để nâng cao kỹ năng AI/Tech, đã từng gặp vấn đề không biết bắt đầu từ đâu khi muốn chuyển sang một role mới.
+- **Nhóm có phải user thật không?:** Có — thành viên nhóm đều là người đang học thêm để nâng cao kỹ năng AI/Tech, đã từng gặp vấn đề không biết bắt đầu từ đâu khi muốn chuyển sang một role mới.
 
 ### 2. Evidence summary
 
 | Evidence | Nguồn | User/pain nói lên điều gì? | SPEC phải đổi gì? |
 |---|---|---|---|
-| Coursera career track cố định 8 khóa, bắt đầu từ beginner dù user đã biết 60% nội dung | Self-use Coursera | User có kinh nghiệm bị ép học lại → lãng phí thời gian → dropout | Build slice phải có CV input để skip phần đã biết |
+| Coursera career track cố định 8 khóa, bắt đầu từ beginner dù user đã biết 60% nội dung | Self-use Coursera | User có kinh nghiệm bị ép học lại <br>→ lãng phí thời gian <br>→ dropout | Build slice phải có CV input để skip phần đã biết |
 | Tỷ lệ dropout online learning 85-95%, nguyên nhân chính: overwhelmed, không phù hợp level | Research papers, reviews | Personalization hiện tại không đủ, user cần lộ trình đúng level | AI phải assess skill level từ CV, không dùng one-size-fits-all |
-| User tự dùng ChatGPT để phân tích CV vs JD → output tốt nhưng không persist, không track | Reddit r/careerguidance + self-use | AI engine đã đủ tốt, thiếu UX wrapper: persistence, tracking, structure | Prototype cần có structured UI, không chỉ chat |
+| User tự dùng ChatGPT để phân tích CV vs JD → output tốt nhưng không persist, không track | Self-use | AI engine đã đủ tốt, thiếu UX wrapper: persistence, tracking, structure | Prototype cần có structured UI, không chỉ chat |
 | Các tool gap analysis (ResuFlex, Kickresume) chỉ list skills thiếu, không gợi ý nguồn học cụ thể + timeline | Self-use competitor apps | Gap analysis → learning path là bước chưa ai làm tốt | Build slice phải end-to-end: gap → path → resources → timeline |
 
 ### 3. Pain statement

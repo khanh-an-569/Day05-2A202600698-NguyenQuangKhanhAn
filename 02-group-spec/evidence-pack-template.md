@@ -1,4 +1,4 @@
-# Template — Evidence Pack
+# Evidence Pack
 
 ## 1. Nhóm và track
 
@@ -60,13 +60,6 @@ AI có thể giúp bằng cách đọc CV + JD → phân tích skill gap tự đ
 ```
 
 ### 6. Evidence đổi SPEC như thế nào?
-
-- [x] Đổi user chính → Focus vào "người đi làm 1-5 năm muốn chuyển việc/thăng tiến"
-- [x] Đổi pain statement → Từ "không tìm được khóa học" sang "không biết mình thiếu gì so với mục tiêu"
-- [x] Đổi build slice → Thu hẹp: chỉ tập trung CV + JD → gap analysis → lộ trình (không build cả LMS)
-- [x] Đổi Auto/Aug decision → Chọn Augmentation (AI gợi ý, user review và quyết định)
-- [x] Đổi 4 paths → Thêm low-confidence path khi CV/JD không rõ ràng
-- [x] Đổi failure mode → Focus vào case AI đánh giá sai skill level
 
 ```text
 Trước evidence, nhóm định build "AI tạo khóa học" (quá rộng, không có bằng chứng pain thật).
